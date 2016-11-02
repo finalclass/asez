@@ -1,0 +1,31 @@
+{
+  "name": "asez",
+  "version": "0.0.1",
+  "description": "Aerospike Eazy API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run compile",
+    "compile": "tsc",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "aerospike": "2.4.1"
+  },
+  "devDependencies": {
+    "typescript": "2.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finalclass/asez.git"
+  },
+  "keywords": [
+    "aerospike"
+  ],
+  "author": "Szymon Wygnanski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/finalclass/asez/issues"
+  },
+  "homepage": "https://github.com/finalclass/asez#readme"
+}
